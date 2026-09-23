@@ -521,3 +521,21 @@ The mandatory concurrency test (`ConcurrentBookingTest.java`) simulates two thre
   - Exactly **1 thread succeeds (`successCount == 1`)**.
   - Exactly **1 thread receives `409 Conflict` (`conflictCount == 1`)**.
   - Database contains **exactly 1 active booking**.
+ 
+## Demo Images
+1. Concurrency issue (Overlapping booking)
+<img width="1763" height="769" alt="image" src="https://github.com/user-attachments/assets/149f9c02-3abd-4c9c-b0bd-2f28c4d9cecf" />
+
+2. Test Invalid Time
+<img width="1848" height="886" alt="image" src="https://github.com/user-attachments/assets/93860a21-574c-4bf4-86a2-ca88eb7169a8" />
+
+3. Test Invalid Employee/User
+   <img width="1850" height="862" alt="image" src="https://github.com/user-attachments/assets/9723e2ed-d6cf-4520-87bb-5fa03dcc0ba7" />
+
+4. Test Cancellation
+<img width="1903" height="880" alt="image" src="https://github.com/user-attachments/assets/c586ff13-14b4-4d91-b77b-5f0897e41f5f" />
+
+
+
+
+
